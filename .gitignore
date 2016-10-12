@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 *.swp
 *.swo
-=======
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
@@ -26,4 +24,3 @@ _testmain.go
 *.exe
 *.test
 *.prof
->>>>>>> f83e24e63fb2f6a0270ee43393700a4d358eb550
