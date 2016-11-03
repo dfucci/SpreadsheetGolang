@@ -11,6 +11,7 @@ type Spreadsheet struct {
 func NewSpreadsheet() *Spreadsheet {
 	spreadsheet := new(Spreadsheet)
 	spreadsheet.cells = make(map[string]int)
+
 	return spreadsheet
 }
 
