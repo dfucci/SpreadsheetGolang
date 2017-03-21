@@ -8,6 +8,6 @@ func TestSingleCell(t *testing.T) {
 	actual := s.Get("A1")
 	expected := 2
 	if actual != expected {
-		t.Errorf("Test failed, expected: %d, got %d", expected, actual)
+		t.Errorf("Test failed, expected: %d, but got %d", expected, actual)
 	}
 }
